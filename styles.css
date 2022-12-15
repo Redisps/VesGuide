@@ -1,0 +1,141 @@
+body {
+    background-color: rgba(37, 31, 63, 1)
+}
+
+.square {
+    position: absolute;
+    width: 1210px;
+    height: 803px;
+    left: 33px;
+    top: 60px;
+    
+    background: linear-gradient(to bottom, #37345F, #4f4b86);
+    border-radius: 15px;
+}
+
+p {
+    position: absolute;
+    width: 398px;
+    height: 279px;
+    left: 705px;
+    top: 350px;
+
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#forsaken {
+    position: absolute;
+    width: 398px;
+    height: 279px;
+    left: 705px;
+    top: 450px;
+
+    border-radius: 27px;
+}
+
+#berserker {
+        position: absolute;
+        width: 797px;
+        left: 1000px;
+        top: 340px;
+}
+
+#vesguideh1 {
+    margin-left: 5%;
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+#vesguideslogan {
+    margin-left: 3%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Iceland', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.categ {
+    position: absolute;
+    width: 515px;
+    height: 61px;
+    left: 1300px;
+    top: 100px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+    background: #37345F;
+    border-radius: 15px;
+}
+
+.categ1 {
+    position: absolute;
+    width: 515px;
+    height: 108px;
+    left: 1300px;
+    top: 232px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+    border-color: #37345F;
+    background: #37345F;
+    border-radius: 15px;
+}
+
+.categ2 {
+    position: absolute;
+    width: 515px;
+    height: 108px;
+    left: 1300px;
+    top: 350px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Kumbh Sans', sans-serif;
+
+    border-color: #37345F;
+    background: #37345F;
+    border-radius: 15px;
+}
+
+.headbar {
+    position: fixed;
+    width: 1970px;
+    height: 40px;
+    left: calc(50% - 2093px/2);
+    top: 0px;
+    
+    background: #4A396F;
+}
+
+.bottomlcircle {
+    position: fixed;
+    width: 437px;
+    height: 468px;
+    left: -244px;
+    bottom: -249px;
+    border-radius: 50%;
+
+    background: #574A8B;
+}
+
+.bottomrcircle {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    right: -208px;
+    bottom: -158px;
+    border-radius: 50%;
+
+    background: #39305B;
+}
+
+#catgirl {
+    position: fixed;
+    width: 204px;
+    height: 213px;
+    left: 16px;
+    top: 700px;
+}
