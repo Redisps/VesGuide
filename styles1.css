@@ -1,3 +1,102 @@
 body {
     background-color: rgba(37, 31, 63, 1)
 }
+
+/* Navbar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A396F;
+    border-radius: 5%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: flex;
+    flex-wrap:wrap;
+    color: white;
+    font-family: "Kumbh Sans", sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #37345F;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+    border-radius: 20%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2A295A;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20%;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  .dropdown-content a:hover {background-color: #574A8B; border-radius: 10%;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+/* Rectangle */
+
+.bodymain {
+    position: absolute;
+    width: 1669px;
+    height: 3000px;
+    left: calc(50% - 1669px/2);
+    top: calc(200px/2);
+
+    background: #37345F;
+    border-radius: 59px;
+}
+
+h1 {
+    margin-left: 5%;
+    color: #fff;
+    font-size: 70px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+p {
+    margin-left: 5%;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+img {
+    position: absolute;
+    z-index: 1;
+    width: 500px;
+    height: 300px;
+    left: 1400px;
+    top: 150px;
+
+    border-radius: 27px;
+    border: 15px solid #4f4b86
+}
